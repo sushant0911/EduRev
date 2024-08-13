@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduRev</title>
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/e2a5af85b3.js" crossorigin="anonymous"></script>
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="logo">EduRev</div>
+                <div class="nav-buttons ">
+                    <button class="login-btn" id="loginBtn">Login</button>
+                    <button class="join-btn" id="joinNowBtn">Join now!</button>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                
+            </div>
+            <div class="sidebar" id="sidebar">
+                <div class="sidebar-logo">EduRev</div>
+                <div class="sidebar-buttons">
+                    <button class="login-btn" id="sidebarLoginBtn">Login</button>
+                    <button class="join-btn" id="sidebarJoinNowBtn">Join now!</button>
+                </div>
+            </div>            
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Unlocking India's Potential Through <span>Innovative Learning</span></h1>
+                <p>Empowering students across India with top educators, innovative courses, and personalized digital learning experiences.</p>
+                <button class="get-started-btn">Get started!</button>
+            </div>
+            <div class="hero-image">
+                <img src="images/girl.png" alt="Learning Illustration">
+            </div>
+        </section>
+
+        <section class="features-container">
+            <div class="features">
+
+                <div class="feature-box">
+                    <div class="icon">
+                        <img src="images/icon-1.png" alt="">
+                    </div>
+                    <h3>Live Learning, Anytime, Anywhere</h3>
+                    <p>Engage in daily live classes where you can chat with educators, ask questions, participate in live polls, and get your doubts cleared in real-time.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="icon">
+                        <img src="images/icon-2.png" alt="">
+                    </div>
+                    <h3>Interactive Learning, On Your Schedule</h3>
+                    <p>Enhance your understanding with dedicated practice sessions, mock tests, and comprehensive lecture notes in PDF format.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="icon">
+                        <img src="images/icon-3.png" alt="">
+                    </div>
+                    <h3>Interactive Learning, On Your Schedule</h3>
+                    <p>Strengthen your knowledge with our practice tools, mock tests, and detailed lecture notes. With one subscription, you can access every live and recorded class, anytime, on any device.</p>
+                </div>
+            </div>
+            </section>
+        </main>
+
+        <!-- Login Container -->
+        <div class="login-container">
+            <div class="login-popup">
+                <form action="">
+                    <h1>Login</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    
+                    <div class="rememberMe-forgotPw">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <div class="register-link">
+                        <p>Don't have an account? <span>Join Now</span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Join Now Container -->
+        <div class="join-now-container">
+            <div class="join-now-popup">
+                <form action="">
+                    <h1>Join Now</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Username" required>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Password" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Confirm Password" required>
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <p id="pw">A password must contain
+                        <li>
+                            <ul>*A Capital Letter</ul>
+                            <ul>*A Symbol Character(@,#,$,%,&,*)</ul>    
+                            <ul>*A Numeric Character</ul>
+                            <ul>*Must be at least 8 character</ul>
+                        </li>
+                    </p>
+                    
+                    <button type="submit" class="btn">Join Now</button>
+                    <div class="register-link">
+                        <p>Already have an account? <span>Log in</span></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
